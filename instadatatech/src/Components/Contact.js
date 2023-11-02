@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope, faHouse, faArrowRight, faPhone, faLocationDot, faMessage} from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faHouse, faArrowRight, faPhone, faLocationDot, faMessage} from "@fortawesome/free-solid-svg-icons";
 
 const IDA = () => {
 

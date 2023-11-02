@@ -9,12 +9,12 @@ import Blog from './Components/blog/Blog';
 function App() {
   return (
     <>
-    <Blog/>
     <Headernav/>
     <Navbar/>
     <Home/>
+    <Blog/>
+       <Contact/>
     <Footer/>
-    <Contact/>
       </>
   );
 }
