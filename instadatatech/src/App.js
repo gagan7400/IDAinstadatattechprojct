@@ -15,7 +15,7 @@ function App() {
     <Blog/>
        <Contact/>
     <Footer/>
-<<<<<<< Updated upstream
+ 
     <Contact/>
     <Services/>
          
