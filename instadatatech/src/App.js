@@ -13,10 +13,7 @@ function App() {
     <Navbar/>
     <Home/>
     <Footer/>
-<<<<<<< Updated upstream
-=======
-          
->>>>>>> Stashed changes
+ 
      </>
   );
 }
