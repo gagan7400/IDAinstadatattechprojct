@@ -15,8 +15,7 @@ function App() {
     <Home/>
     <Footer/>
     <Contact/>
-         
-     </>
+      </>
   );
 }
 
