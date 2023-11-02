@@ -5,6 +5,7 @@ import Footer from './Components/Footer'
 import Contact from './Components/Contact'
 import './App.css';
 import Blog from './Components/blog/Blog';
+import Services from './Components/Services';
 
 function App() {
   return (
@@ -12,10 +13,13 @@ function App() {
     <Headernav/>
     <Navbar/>
     <Home/>
-    <Blog/>
     <Footer/>
     <Contact/>
-      </>
+    <Services/>
+      <Footer/>
+ 
+         
+     </>
   );
 }
 
