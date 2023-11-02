@@ -37,14 +37,18 @@
   }
 }
 
+
+
 /*                                         Services Css       */
 .container {
   display: flex;
   flex-direction: row;
-  width: 100%;
-  margin-left: 120px;
+  width: 1050px;
+  height: 955px;
+  
 }
 .Service-space{
+  position: relative;
   margin-top: 64px;
   margin-bottom: 64px;
 }
