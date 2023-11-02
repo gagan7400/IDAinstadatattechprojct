@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Footer() {
     return (<>
-        <div className='bg-dark text-light pt-lg-5 pb-lg-5 '>
+        <div className='bg-dark text-light pt-lg-5 pb-lg-5'>
             <div className="pb-60 pt-80 pt-lg-5">
                 <div className="container">
                     <div className="row justify-content-center gy-5">

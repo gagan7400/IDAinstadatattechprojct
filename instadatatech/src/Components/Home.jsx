@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Home() {
   const background = {
-    height: "700px",
+    
     background: 'rgb(248, 249, 249)',
     background: 'linear-gradient(120deg, rgba(248, 249, 249, 1) 0%, rgba(172, 235, 251, 1) 19%, rgba(255, 255, 255, 1) 39%,rgba(172, 235, 251, 1) 69%,#c785fd 100%)',
   };
