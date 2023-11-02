@@ -26,9 +26,6 @@ function App() {
 <<<<<<< Updated upstream
     <Contact/>
          
-=======
-    <Services/>
->>>>>>> Stashed changes
      </>
   );
 }
