@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&family=Roboto+Slab:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    ;
+}
+
+.main {
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0px;
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+}
+
+#content {
+    padding: 0px 12px;
+    /* margin: 12px; */
+    position: relative;
+}
+
+.thumbnail {
+    display: flex;
+}
+
+.thumbnail img {
+    border-radius: 20px 20px 0px 0px;
+
+}
+
+.thumbnail {
+    overflow: hidden;
+    position: relative;
+    width: 400px;
+    /* Adjust the width and height according to your layout */
+    height: 200px;
+}
+
+.thumbnail img {
+    transition: transform 0.3s ease;
+}
+
+.thumbnail:hover img {
+    transform: scale(1.1);
+    /* You can adjust the scale factor as needed */
+}
+
+.text-item {
+    margin-top: 10px;
+}
+
+ 
+
+.item-content {
+    padding-left: 20px;
+    /* background-color: blue; */
+}
+
+.readmore a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}

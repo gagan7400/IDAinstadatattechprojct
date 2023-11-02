@@ -4,10 +4,12 @@ import Home from './Components/Home'
 import Footer from './Components/Footer'
 import Contact from './Components/Contact'
 import './App.css';
+import Blog from './Components/blog/Blog';
 
 function App() {
   return (
     <>
+    <Blog/>
     <Headernav/>
     <Navbar/>
     <Home/>
