@@ -19,8 +19,6 @@ export default function Footer() {
                                     </div>
                                     <button type="submit" className="btn btn-outline-light position-relative " style={{ marginLeft: "11.7rem", marginTop: '0.03rem' }}>Subscribe</button>
                                 </div>
-
-
                             </div>
                         </div>
                         <div className="col-xl-2 col-sm-6">
