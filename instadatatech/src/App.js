@@ -9,10 +9,11 @@ import Services from './Components/Services';
 function App() {
   return (
     <>
-    <Blog/>
     <Headernav/>
     <Navbar/>
     <Home/>
+    <Blog/>
+       <Contact/>
     <Footer/>
 <<<<<<< Updated upstream
     <Contact/>
