@@ -1,9 +1,7 @@
 import React from 'react'
-
 export default function Navbar() {
   return (
     <div>
-
   <nav className="navbar navbar-expand-lg bg-body-tertiary ps-lg-5 pe-lg-5">   
     <div className="container-fluid ">
     <a className="navbar-brand ps-lg-4" href="#"><img width={'150px'} className='ps-3' src="https://www.instadatatech.com/assets/images/general/logo.png" alt="" /></a>

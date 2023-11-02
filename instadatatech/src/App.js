@@ -2,13 +2,18 @@
 import './App.css';
 import Footer from './Components/Footer';
 import Home from './Components/Home';
-import Nav1 from './Components/Nav1';
+import Headernav from './Components/Headernav';
 import Navbar from './Components/Navbar';
 
 function App() {
   return (
     <>
-    </>
+    <Headernav/>
+    <Navbar/>
+    <Home/>
+    <Footer/>
+         
+     </>
   );
 }
 

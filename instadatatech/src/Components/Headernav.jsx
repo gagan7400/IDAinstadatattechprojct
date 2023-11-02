@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Nav1() {
+export default function Headernav() {
     return (
         <div className='Nav_1' >
             <div className="container p-2  ">
