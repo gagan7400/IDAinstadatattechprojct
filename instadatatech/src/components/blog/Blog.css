@@ -39,7 +39,6 @@
     overflow: hidden;
     position: relative;
     width: 400px;
-    /* Adjust the width and height according to your layout */
     height: 200px;
 }
 
@@ -49,7 +48,6 @@
 
 .thumbnail:hover img {
     transform: scale(1.1);
-    /* You can adjust the scale factor as needed */
 }
 
 .text-item {
