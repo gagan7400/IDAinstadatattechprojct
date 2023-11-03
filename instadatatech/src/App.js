@@ -2,6 +2,7 @@ import Headernav from './Components/Headernav'
 import Navbar from './Components/Navbar'
 import Home from './Components/Home'
 import Footer from './Components/Footer'
+import About from './Components/About'
 import Contact from './Components/Contact'
 import './App.css';
 import Blog from './Components/blog/Blog';
@@ -22,7 +23,7 @@ function App() {
         {/* <Route path='/products' element={<Products/>} /> */}
         <Route path='/blog' element={<><Blog /><Services /></>} />
         <Route path='/services' element={<Services />} />
-        {/* <Route path='/about' element={<About/>} /> */}
+        <Route path='/about' element={<About/>} />
         <Route path='/contact' element={<Contact />} />
 
       </Routes>
