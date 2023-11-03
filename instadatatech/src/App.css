@@ -32,7 +32,7 @@
 
 
 
-.btn_ {
+.btn {
   border-radius: 6px;
   position: relative;
   border: 1px solid transparent;
@@ -55,7 +55,7 @@
   background: -moz-linear-gradient(65deg, #9500ff 1%, #00acff 80%);
 }
 
-.btn_:hover {
+.btn_-Service:hover {
   color: rgb(30, 149, 234);
 }
 

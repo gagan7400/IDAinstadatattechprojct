@@ -27,9 +27,10 @@ const centerStylee  = {
         </p>
       </div>
 
+
       <div className='Service-space'>
 
-        <div className="container">
+        <div className="container-Service">
           <div className="row1">
             <div className="card card-1">
               <div className="service__icon">
@@ -39,7 +40,7 @@ const centerStylee  = {
               <p>Drive online success with our digital marketing expertise. We create data-driven campaigns that boost your online visibility, engage your ta...</p>
               <div className="btns">
                 <div className="sections slides">
-                  <div className="btn_ slide Slide-right">View<i className="fas fa-arrow-right" style={{ marginLeft: "5px" }}></i></div>
+                  <div className="btn-Service_ slide Slide-right">View<i className="fas fa-arrow-right" style={{ marginLeft: "5px" }}></i></div>
                 </div>
               </div>
             </div>
@@ -72,7 +73,7 @@ const centerStylee  = {
           </div>
 
 
-
+           
           <div className="row2">
             <div className="card card-1">
               <div className="service__icon">
