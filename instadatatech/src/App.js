@@ -19,7 +19,6 @@ function App() {
       <Headernav/>
       <Navbar/>
       <Routes>
-
         <Route path='/'element={<Home />} />
         <Route path='/products' element={<Products/>} /> 
         <Route path='/blog' element={<><Blog /><Services /></>} />
