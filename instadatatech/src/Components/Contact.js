@@ -168,7 +168,10 @@ const IDA = () => {
                     </div>
                         
                     </div>
-
+                      <br/>
+                      <br/>
+                      <br/>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5952091.83763245!2d78.50584223622774!3d20.695544283847124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x434d0d6b3ad47f4b%3A0x23d88bec3ff7aa24!2sInsta%20Data%20Tech!5e0!3m2!1sen!2sin!4v1698989510312!5m2!1sen!2sin"  height="450" width="100%"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
                 </div>
             </div>
