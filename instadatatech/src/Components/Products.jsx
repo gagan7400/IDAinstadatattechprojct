@@ -32,7 +32,7 @@ function Products() {
                 
                     <div className="Product-top">
                         <div className="sections slides">
-                            <div className="btn-product slide Slide-right">Our Products</div>
+                            <div className="btn-product slide Slide-right" style={{marginLeft:"531px"}}>Our Products</div>
                         </div>
                     </div>
                 
@@ -76,7 +76,7 @@ function Products() {
                   
                     <div className="Product-top" style={{marginTop:"38px" , }}>
                         <div className="sections slides">
-                            <div className="btn-product slide Slide-right" style={{marginLeft:'-32px'}}>Get Started<i className="fas fa-arrow-right" style={{ marginLeft: "5px" }}></i></div>
+                            <div className="btn-product slide Slide-right" style={{marginLeft:'77px'}}>Get Started<i className="fas fa-arrow-right" style={{ marginLeft: "5px" }}></i></div>
                         </div>
                     </div>
                
