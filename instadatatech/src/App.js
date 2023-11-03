@@ -6,12 +6,13 @@ import About from './Components/About'
 import Contact from './Components/Contact'
 import './App.css';
 import Blog from './Components/blog/Blog';
-import Services from './Components/Services';
-
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Testimonials from './Components/Testimonials'
-import Swiper_footer from './Components/Swiper_footer'
-
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import '../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js'
+import '../node_modules/bootstrap/dist/js/bootstrap.js.map'
+import Services from "./Components/Services.jsx"
+import About from './Components/About'
+import Products from './Components/Products.jsx'
+import Letsstart from './Components/Letsstart.jsx'
 function App() {
   return (
     <BrowserRouter>
