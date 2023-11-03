@@ -10,6 +10,8 @@ import '../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js'
 import '../node_modules/bootstrap/dist/js/bootstrap.js.map'
 import Services from "./Components/Services.jsx"
 import About from './Components/About'
+import Products from './Components/Products.jsx'
+import Letsstart from './Components/Letsstart.jsx'
 function App() {
   return (
     <>
@@ -17,6 +19,8 @@ function App() {
     <Navbar/>
     <Home/>
     <About/>
+    <Products/>
+    <Letsstart/>
     <Contact/>
     <Services/>
     <Blog/>
