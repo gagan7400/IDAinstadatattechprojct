@@ -18,9 +18,9 @@ function App() {
     <Home/>
     <About/>
     <Contact/>
+    <Services/>
     <Blog/>
     <Footer/>
-    <Contact/>
     
       </>
   );
