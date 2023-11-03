@@ -30,7 +30,7 @@ const centerStylee  = {
 
       <div className='Service-space'>
 
-        <div className="container">
+        <div className="containerservices">
           <div className="row1">
             <div className="card card-1">
               <div className="service__icon">
