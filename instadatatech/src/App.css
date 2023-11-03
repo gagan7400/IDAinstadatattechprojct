@@ -46,10 +46,11 @@
   flex-direction: row;
   width: 1050px;
   height: 955px;
-  
+  margin-left: 115px;
 }
 .Service-space{
   position: relative;
+  padding: 3px 10px;
   margin-top: 64px;
   margin-bottom: 64px;
 }
@@ -86,8 +87,8 @@
 .row1 {
   display: flex;
   justify-content: space-between;
-  width: 100%;
-  margin-bottom: 200px;
+  width: 98%;
+  margin-bottom: 542px;
 }
 
 .row2 {
@@ -95,8 +96,7 @@
   display: flex;
   justify-content: space-between;
   width: 1024px;
-  margin-bottom: 200px;
-  margin-top: 486px;
+  margin-top: 500px;
 }
 /*   css on cards  */
 .card {
@@ -133,26 +133,25 @@
 
 
 .card-1 {
-
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: 80px;
+  padding-bottom: 25px;
 }
 
 
 
 
 /* button Css  */
+.Service-space{
+  position: relative;
+}
 .btns {
   margin-top: 18px;
   margin-right: 110px;
-  margin-left: -15px;
+  margin-left: -1px;
 }
 
 
 .btn-Service {
   border-radius: 6px;
-  position: relative;
   border: 1px solid transparent;
   text-transform: capitalize;
   font-weight: 700;
@@ -164,8 +163,8 @@
   line-height: 50px;
   text-align: center;
   transition: all 0.5s ease-in-out;
-  /* width: 111px;
-  height:  45px; */
+  width: 111px;
+  height:  45px;
 
   background: #9500ff;
   background: linear-gradient(65deg, #9500ff 1%, #00acff 80%);
@@ -173,7 +172,7 @@
   background: -moz-linear-gradient(65deg, #9500ff 1%, #00acff 80%);
 }
 
-.btn_-Service:hover {
+.btn-Service:hover {
   color: rgb(30, 149, 234);
 }
 
@@ -191,6 +190,9 @@
 .slide.Slide-right:hover {
   box-shadow: inset -130px 0 0 0 #ffffff;
 }
+
+
+
 
 
 
