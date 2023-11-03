@@ -2,12 +2,13 @@ import React from 'react';
 import Blog from './blog/Blog';
 import Services from './Services';
 import Contact from './Contact';
+import About from './About';
 
  
 
 export default function Home() {
   const background = {
-    
+    height:"100vh",
     background: 'rgb(248, 249, 249)',
     background: 'linear-gradient(120deg, rgba(248, 249, 249, 1) 0%, rgba(172, 235, 251, 1) 19%, rgba(255, 255, 255, 1) 69%,rgba(172, 235, 251, 1) 69%,#c785fd 100%)',
   };
@@ -15,6 +16,7 @@ export default function Home() {
     borderRadius: '15px 80px',
     background:' rgb(173,168,252)',
     background: 'linear-gradient(-120deg,rgba(135,227,253,1) 0%, rgba(173,168,252,1) 100%)',
+    
   }
   return (
     <>
@@ -51,7 +53,8 @@ export default function Home() {
       </div>
     </div>
     <Blog/>
-    <Services/>
+    <About/>
+    <Services/> 
     <Contact/>
     
     </>
