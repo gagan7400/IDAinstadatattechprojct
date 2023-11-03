@@ -19,8 +19,6 @@ function App() {
     <Navbar/>
     <Home/>
     <About/>
-    <Products/>
-    <Letsstart/>
     <Contact/>
     <Services/>
     <Blog/>

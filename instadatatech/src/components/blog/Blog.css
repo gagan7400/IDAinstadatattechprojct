@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&family=Roboto+Slab:wght@400;500;600&display=swap');
 
 * {
     margin: 0;
@@ -14,14 +13,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 80px 0px;
+    /* padding: 80px 0px; */
     position:relative;
     height: 100vh;
     width: 100%;
 }
 
 #content {
-    padding: 0px 12px;
+    /* padding: 0px 12px; */
     /* margin: 12px; */
     position: relative;
 }
@@ -31,15 +30,16 @@
 }
 
 .thumbnail img {
-    border-radius: 20px 20px 0px 0px;
+    border-radius: 20px 20px;
 
 }
 
 .thumbnail {
     overflow: hidden;
+    border-radius: 10% 10%;
     position: relative;
-    width: 400px;
-    height: 200px;
+    width: 361px;
+    height: 250px;
 }
 
 .thumbnail img {
@@ -56,10 +56,6 @@
 
  
 
-.item-content {
-    padding-left: 20px;
-    /* background-color: blue; */
-}
 
 .readmore a {
     display: flex;

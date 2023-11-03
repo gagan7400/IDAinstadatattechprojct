@@ -40,7 +40,7 @@ const centerStylee  = {
               <p>Drive online success with our digital marketing expertise. We create data-driven campaigns that boost your online visibility, engage your ta...</p>
               <div className="btns">
                 <div className="sections slides">
-                  <div className="btn-Service slide Slide-right">View<i className="fas fa-arrow-right" style={{ marginLeft: "5px" }}></i></div>
+                  <div className="btn-Service_ slide Slide-right">View<i className="fas fa-arrow-right" style={{ marginLeft: "5px" }}></i></div>
                 </div>
               </div>
             </div>
@@ -53,7 +53,7 @@ const centerStylee  = {
               <p>Harness the full potential of the cloud with our comprehensive services. We offer scalable, secure, and cost-effective cloud solutions tailo...</p>
               <div className="btns">
                 <div className="sections slides">
-                  <div className="btn slide Slide-right">View<i className="fas fa-arrow-right" style={{ marginLeft: "5px" }}></i></div>
+                  <div className="btn_ slide Slide-right">View<i className="fas fa-arrow-right" style={{ marginLeft: "5px" }}></i></div>
                 </div>
               </div>
             </div>
@@ -66,7 +66,7 @@ const centerStylee  = {
               <p>We specialize in creating cutting-edge applications that meet your unique business needs. Our expert development team designs and builds use...</p>
               <div className="btns">
                 <div className="sections slides">
-                  <div className="btn slide Slide-right">View<i className="fas fa-arrow-right" style={{ marginLeft: "5px" }}></i></div>
+                  <div className="btn_ slide Slide-right">View<i className="fas fa-arrow-right" style={{ marginLeft: "5px" }}></i></div>
                 </div>
               </div>
             </div>
@@ -83,7 +83,7 @@ const centerStylee  = {
               <p>Our website development services are your gateway to a powerful online presence. We craft custom websites that not only look stunning but al...</p>
               <div className="btns">
                 <div className="sections slides">
-                  <div className="btn slide Slide-right">View<i className="fas fa-arrow-right" style={{ marginLeft: "5px" }}></i></div>
+                  <div className="btn_ slide Slide-right">View<i className="fas fa-arrow-right" style={{ marginLeft: "5px" }}></i></div>
                 </div>
               </div>
             </div>
@@ -96,7 +96,7 @@ const centerStylee  = {
               <p>Our data analytics services offer actionable insights from your data, driving informed decision-making and business success. Our expert team...</p>
               <div className="btns">
                 <div className="sections slides">
-                  <div className="btn slide Slide-right">View<i className="fas fa-arrow-right" style={{ marginLeft: "5px" }}></i></div>
+                  <div className="btn_ slide Slide-right">View<i className="fas fa-arrow-right" style={{ marginLeft: "5px" }}></i></div>
                 </div>
               </div>
             </div>
@@ -109,7 +109,7 @@ const centerStylee  = {
               <p>Harness the power of data with our cutting-edge data science services. We turn raw data into actionable insights, helping you make informed ...</p>
               <div className="btns">
                 <div className="sections slides">
-                  <div className="btn slide Slide-right">View<i className="fas fa-arrow-right" style={{ marginLeft: "5px" }}></i></div>
+                  <div className="btn_ slide Slide-right">View<i className="fas fa-arrow-right" style={{ marginLeft: "5px" }}></i></div>
                 </div>
               </div>
             </div>
