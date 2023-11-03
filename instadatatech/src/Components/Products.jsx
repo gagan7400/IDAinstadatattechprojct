@@ -1,6 +1,7 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHouse, faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import { faHouse, faArrowRight } from '@fortawesome/free-solid-svg-icons'; 
+import Letsstart from './Letsstart' ;
 function Products() {
     const centerStyle = {
         display: 'flex',
@@ -85,7 +86,8 @@ function Products() {
 
 
 
-            </div>
+            </div> 
+            <Letsstart/>
         </>
     )
 }
