@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Headernav() {
     return (
-        <div className='Nav_1' >
+        <div className='Nav_1' style={{ background: 'linear-gradient(120deg, rgba(248, 249, 249, 1) 0%, rgba(172, 235, 251, 1) 19%, rgba(172, 235, 251, 1) 39%, rgba(255, 255, 255, 1) 69%,rgba(172, 235, 251, 1) 89%,#c785fd 100%)'}}>
             <div className="container p-2  ">
                 <div className="top-header-wrapper d-flex justify-content-between align-items-center flex-wrap ">
                     <div className="top-contact">

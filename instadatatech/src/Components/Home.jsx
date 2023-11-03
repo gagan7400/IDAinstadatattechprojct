@@ -1,10 +1,15 @@
 import React from 'react';
+import Blog from './blog/Blog';
+import Services from './Services';
+import Contact from './Contact';
+
+ 
 
 export default function Home() {
   const background = {
     
     background: 'rgb(248, 249, 249)',
-    background: 'linear-gradient(120deg, rgba(248, 249, 249, 1) 0%, rgba(172, 235, 251, 1) 19%, rgba(255, 255, 255, 1) 39%,rgba(172, 235, 251, 1) 69%,#c785fd 100%)',
+    background: 'linear-gradient(120deg, rgba(248, 249, 249, 1) 0%, rgba(172, 235, 251, 1) 19%, rgba(255, 255, 255, 1) 69%,rgba(172, 235, 251, 1) 69%,#c785fd 100%)',
   };
   const background1 = {
     borderRadius: '15px 80px',
@@ -12,8 +17,10 @@ export default function Home() {
     background: 'linear-gradient(-120deg,rgba(135,227,253,1) 0%, rgba(173,168,252,1) 100%)',
   }
   return (
-    <div classNameName='' style={{paddingTop:'100px',...background }}>
-      <div className=" gy-4 d-flex align-items-center p-lg-4 " >
+    <>
+    <div classNameName='' style={{...background }}>
+      <div style={{paddingTop:'100px'}}>
+      <div className=" gy-4 d-flex align-items-center p-lg-5" >
         <div className="col-lg-6 p-lg-5 ">
           <div className="banner-left__content">
             <span className=" p-2 rounded text-light "style={{fontWeight:'700',letterSpacing:'2px',background:' linear-gradient(90deg, rgba(81,85,251,1) 24%, rgba(25,209,253,1) 70%, rgba(220,187,247,1) 100%)'}}>Analytics, Development, Precision, Growth</span>
@@ -30,9 +37,9 @@ export default function Home() {
        
         <div className="col-lg-5">
         <div className="ps-5 pb-4 mt-4 pt-4 position-relative" style={background1} >
-          <div className="banner-right-wrap ">
+          <div className="banner-right-wrap" style={{width:'460px'}}>
 
-            <div className="rounded p-2 bg-primary position-absolute" style={{top:'-17%',left:'56%', border: "5px solid light" }}>
+            <div className="rounded p-2 bg-primary position-absolute UP_" style={{top:'-17%',left:'56%', border: "5px solid light" }}>
               <h4 className='fs-1 text-light text-center'style={{fontWeight:'900'}}>3</h4>
               <span className='text-light' style={{fontSize:'11px',fontWeight:'900'}}>Years Of Experience</span>
             </div>
@@ -41,6 +48,12 @@ export default function Home() {
         </div>
         </div>
       </div>
+      </div>
     </div>
+    <Blog/>
+    <Services/>
+    <Contact/>
+    
+    </>
   );
 }
