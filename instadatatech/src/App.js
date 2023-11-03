@@ -8,6 +8,7 @@ import Blog from './Components/blog/Blog';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import '../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js'
 import '../node_modules/bootstrap/dist/js/bootstrap.js.map'
+import Services from "./Components/Services.jsx"
 function App() {
   return (
     <>
@@ -17,7 +18,7 @@ function App() {
     <Blog/>
     <Footer/>
     <Contact/>
-    
+    <Services/>
       </>
   );
 }
