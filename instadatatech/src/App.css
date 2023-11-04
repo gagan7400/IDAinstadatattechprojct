@@ -162,6 +162,7 @@ font-family: 'Shantell Sans', cursive; */
 
 
 
+<<<<<<< Updated upstream
 
 /* button Css  */
 .btns {
@@ -172,6 +173,9 @@ font-family: 'Shantell Sans', cursive; */
 
 
 .btn-Service {
+=======
+.btn_ {
+>>>>>>> Stashed changes
   border-radius: 6px;
   position: relative;
   border: 1px solid transparent;
