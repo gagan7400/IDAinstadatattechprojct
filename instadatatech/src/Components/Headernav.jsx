@@ -2,24 +2,24 @@ import React from 'react'
 
 export default function Headernav() {
     return (
-        <div className='Nav_1' style={{ background: 'linear-gradient(120deg, rgba(248, 249, 249, 1) 0%, rgba(172, 235, 251, 1) 19%, rgba(172, 235, 251, 1) 39%, rgba(255, 255, 255, 1) 69%,rgba(172, 235, 251, 1) 89%,#c785fd 100%)'}}>
+        <div className='Nav_1' style={{ background: 'linear-gradient(120deg, rgba(248, 249, 249, 1) 0%, rgba(172, 235, 251, 1) 19%, rgba(172, 235, 251, 1) 39%, rgba(255, 255, 255, 1) 79%,rgba(172, 235, 251, 1) 98%,#c785fd 100%)'}}>
             <div className="container p-2  ">
                 <div className="top-header-wrapper d-flex justify-content-between align-items-center flex-wrap ">
                     <div className="top-contact">
                         <ul className="d-flex gap-5 mb-0">
                             <li className="contact-list__item d-flex align-items-center">
                                 <span className="pe-2"><i className="fas fa-phone text-info"></i></span>
-                                <a href="tel:+91 8269347043" className="list-group-item">+91 8269347043</a>
+                                <a href="tel:+91 8269347043" style={{fontFamily: "'Roboto', sans-serif" }} className="list-group-item">+91 8269347043</a>
                             </li>
                             <li className="contact-list__item d-flex align-items-center">
                                 <span className="pe-2"><i className="fas fa-envelope text-info"></i></span>
-                                <a href="mailto:instadatatech@gmail.com" className="list-group-item">instadatatech@gmail.com</a>
+                                <a href="mailto:instadatatech@gmail.com" style={{fontFamily: "'Roboto', sans-serif" }} className="list-group-item">instadatatech@gmail.com</a>
                             </li>
                         </ul>
                     </div>
                     <div className="top-button d-flex  gap-2 align-items-center">
                         <div className="">
-                            <select className="form-select langSel"style={{fontSize:"11px"}} >
+                            <select className="form-select langSel"style={{fontSize:"11px",fontFamily: "'Roboto', sans-serif"}} >
                                 <option value="en" selected>English</option>
                                 <option value="es">Spanish</option>
                             </select>

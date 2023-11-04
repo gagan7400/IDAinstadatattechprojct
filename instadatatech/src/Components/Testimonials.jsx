@@ -13,8 +13,8 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
 export default function Testimonials() {
     return (
-        <div style={{paddingTop:"114px",paddingBottom:"114px"}}>
-        <div className='d-flex p-lg-5 gap-5 position-relative'>
+        <div style={{paddingTop:"8rem"}}>
+        <div className='d-flex p-lg-5 flex-wrap position-relative'>
             <div className='col-6 ps-5 position-relative'>
                 <span className='outline mb-2 text-light p-2 rounded pe-4 ps-4' style={{ background: ' linear-gradient(90deg, rgba(81,85,251,1) 24%, rgba(25,209,253,1) 99%, rgba(220,187,247,1) 100%)' }}>Testimonials</span>
                 <p className='fs-1 pt-4' style={{ fontWeight: '700', fontSize: '45px' }}>What Clients Say About Us.</p>

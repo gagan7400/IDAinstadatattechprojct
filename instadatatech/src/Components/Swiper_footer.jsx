@@ -9,9 +9,9 @@ import { Autoplay} from 'swiper/modules';
 
 export default function Swiper_footer() {
     return (
-        <div className='w-100' style={{paddingTop:"34px",paddingBottom:"34px"}}>
+        <div className='w-100' style={{paddingTop:"4rem",paddingBottom:"4rem"}}>
                 <Swiper
-                      slidesPerView={6}
+                      slidesPerView={5}
                       spaceBetween={20}
                       autoplay={{
                           delay: 2000,
