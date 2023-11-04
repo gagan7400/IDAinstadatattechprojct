@@ -3,12 +3,23 @@ import Letsstart from './Letsstart';
 function Products() {
 
     return (
-        <div className=''>
-            <div className='Product-main pt-5'>
-         
-                <div className="btn btn--base outline mb-2 text-light" style={{fontFamily: "'Roboto', sans-serif",borderStyle:'none' ,background:' linear-gradient(90deg, rgba(81,85,251,1) 24%, rgba(25,209,253,1) 99%, rgba(220,187,247,1) 100%)'}}>Our Products</div>
+        <>
+            <div className='Product-main'>
+                <div>Products
+                    <strong style={centerStyle}>Products</strong>
+                    <p style={centerStylee}>
+                        <FontAwesomeIcon icon={faHouse} /> Home
+                        <FontAwesomeIcon icon={faArrowRight} /> Products
+                    </p>
+                </div>
 
-
+                
+                    <div className="Product-top">
+                        <div className="sections slides">
+                            <div className="btn-product slide Slide-right" style={{marginLeft:"531px"}}>Our Products</div>
+                        </div>
+                    </div>
+                
 
 
                 <div className='Product-title'>
@@ -47,11 +58,10 @@ function Products() {
                             </ul>
                         </div>
 
-
-                        <div className="Product-top" style={{ marginTop: "38px", }}>
-                            <div className="sections slides">
-                                <div className="btn-product slide Slide-right" style={{ marginLeft: '-32px' }}>Get Started<i className="fas fa-arrow-right" style={{ marginLeft: "5px" }}></i></div>
-                            </div>
+                  
+                    <div className="Product-top" style={{marginTop:"38px" , }}>
+                        <div className="sections slides">
+                            <div className="btn-product slide Slide-right" style={{marginLeft:'-32px'}}>Get Started<i className="fas fa-arrow-right" style={{ marginLeft: "5px" }}></i></div>
                         </div>
 
 
@@ -61,9 +71,9 @@ function Products() {
 
 
 
-            </div>
-            <Letsstart />
-        </div>
+            </div> 
+            <Letsstart/>
+        </>
     )
 }
 
