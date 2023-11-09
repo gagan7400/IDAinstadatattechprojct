@@ -18,7 +18,7 @@ const centerStylee  = {
     marginLeft:"500px"
 };
   return (
-    <>Services
+    <> 
       <div>
         <strong style={centerStyle}>Services</strong>
         <p style={centerStylee}>

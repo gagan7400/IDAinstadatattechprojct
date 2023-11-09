@@ -94,7 +94,7 @@ const Contact = () => {
 
     return (
         <div >
-            <div style={Maincontainer}>
+            {/* <div style={Maincontainer}>
                 <div >
                     <strong style={centerStyle}>Contact Us</strong>
                     <p style={centerStylee}>
@@ -125,9 +125,9 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             {/* -------------------------------------- */}
-            <div style={secondContainer}>
+            {/* <div style={secondContainer}>
                 <div style={Maincontainer}>
                     <div style={contact}>
                         <span>
@@ -171,7 +171,7 @@ const Contact = () => {
 
 
                 </div>
-            </div>
+            </div> */}
 
         </div>
 
