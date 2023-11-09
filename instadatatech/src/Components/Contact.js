@@ -5,21 +5,7 @@ import { faEnvelope, faHouse, faArrowRight, faPhone, faLocationDot, faMessage } 
 const IDA = () => {
 
     const [isHovered, setIsHovered] = useState(false);
-    const centerStyle = {
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-        fontSize: "30px",
-    };
-    const centerStylee = {
-        display: 'flex',
 
-        alignItems: 'center',
-        justifyContent: 'space-around',
-        width: "20%", marginTop: "30px",
-        // textAlign:"center"
-        marginLeft: "500px"
-    };
     const container = {
 
         display: "flex",
@@ -54,8 +40,6 @@ const IDA = () => {
 
         fontSize: "40px",
         marginRight: "20px",
-        // fill:"yellow",
-        color: "grey"
     };
     //   -----------------------------------
 
@@ -63,34 +47,66 @@ const IDA = () => {
 
 
     return (
-        <div className="pt-4">
-            <div style={Maincontainer}>
-                <div >
-                   
-                    <div style={container}>
-                        <div style={call}
-                            onMouseEnter={() => setIsHovered(true)}
-                            onMouseLeave={() => setIsHovered(false)}
-                        >call us
-                            <span> <FontAwesomeIcon icon={faPhone} style={icon} /> <span>+918269347043</span> </span>
+        <div className="pt-5">
+            
+                <div className="container" style={{height:'150px'}}>
+                    <div className="row gy-4 justify-content-center">
+                        <div className="col-lg-4 col-md-6">
+                            <div className="contact-info">
+                                <div className=" mb-30">
+                                    <div className="p-lg-4">
+                                        <h4 style={{ fontFamily: "'Roboto', sans-serif" }}>Call Us</h4>
+                                        <div className="d-flex gap-3 pt-2">
+                                            <div className="cont-icon">
+                                                <i className="fas fa-phone fs-1 text-info"></i>
+                                            </div>
+                                            <div className="pt-2">
+                                                <h6><a href="tel:+91 8269347043" className="text-decoration-none text-secondary">+91 8269347043</a></h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div style={call}
-                            onMouseEnter={() => setIsHovered(true)}
-                            onMouseLeave={() => setIsHovered(false)}
-                        >
-                            Email
-                            <span >   <FontAwesomeIcon icon={faEnvelope} style={icon} /> <span > instadatatech@gmail.com  </span >  </span>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="contact-info">
+                                <div class="contact-info__addres-wrap mb-30">
+                                    <div className="p-lg-4">
+                                        <h4 style={{ fontFamily: "'Roboto', sans-serif" }}>Email</h4>
+                                        <div className="d-flex gap-4 pt-2">
+                                            <div className="cont-icon">
+                                                <i className="far fa-envelope fs-1 text-info"></i>
+                                            </div>
+                                            <div className="pt-2">
+                                                <h6><a href="mailto:instadatatech@gmail.com"className="text-decoration-none text-secondary">instadatatech@gmail.com</a></h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div style={call}
-                            onMouseEnter={() => setIsHovered(true)}
-                            onMouseLeave={() => setIsHovered(false)}
-                        >
-                            Office
-                            <span>  <FontAwesomeIcon icon={faLocationDot} style={icon} /> <span>P13-14, Metro Tower,  Indore</span> </span>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="contact-info">
+                                <div class="contact-info__addres-wrap mb-30">
+                                    <div className="pt-lg-4 pb-lg-2 pe-lg-4 ps-lg-4">
+                                        <h4 style={{ fontFamily: "'Roboto', sans-serif" }}>Office</h4>
+                                        <div className="d-flex gap-4 pt-2">
+                                            <div className="cont-icon">
+                                                <i className="fas fa-map-marker-alt fs-1 text-info"></i>
+                                            </div>
+                                            <div className="pt-2">
+                                                <h6 ><a className="text-decoration-none text-secondary">P13-14 , Metro Tower , Vijay Nagar , Indore</a></h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
+           
+
+
             {/* -------------------------------------- */}
             <div >
                 <div>
@@ -120,11 +136,11 @@ const IDA = () => {
 
 
                             <div className="col-sm-12">
-                                <button type="submit" style={{ fontFamily: "'Roboto', sans-serif", background: ' linear-gradient(90deg, rgba(81,85,251,1) 24%, rgba(25,209,253,1) 70%, rgba(220,187,247,1) 100%)',borderStyle:'none'}} className="btn btn--base outline mb-2 text-light">
+                                <button type="submit" style={{ fontFamily: "'Roboto', sans-serif", background: ' linear-gradient(90deg, rgba(81,85,251,1) 24%, rgba(25,209,253,1) 70%, rgba(220,187,247,1) 100%)', borderStyle: 'none' }} className="btn btn--base outline mb-2 text-light">
                                     Send Your Message<i className="fas fa-paper-plane"></i>
                                     <span style={{ top: "249px", left: "75.9844px" }}></span>
                                 </button>
-                                
+
                             </div>
                         </div>
 

@@ -1,7 +1,6 @@
 import React from 'react';
 import Blog from './blog/Blog';
-import Services from './Services';
-import Contact from './Contact';
+
 import Products from './Products';
 import About from './About';
 import Swiper_footer from './Swiper_footer';
@@ -49,7 +48,7 @@ export default function Home() {
         <div className="ps-5 pb-4 mt-4 pt-4 position-relative" style={background1} >
           <div className="banner-right-wrap">
 
-            <div className="rounded p-2 bg-primary position-absolute UP_" style={{top:'-17%',left:'56%', border: "5px solid light" }}>
+            <div className="rounded p-2 position-absolute UP_" style={{top:'-17%',left:'56%', border: "5px solid light" ,background:' linear-gradient(90deg, rgba(81,85,251,1) 24%, rgba(25,209,253,1) 99%, rgba(220,187,247,1) 100%)',border:"4px solid rgb(79, 241, 244)"}}>
               <h4 className='fs-1 text-light text-center'style={{fontWeight:'900' ,fontFamily: "'Roboto', sans-serif" }}>3</h4>
               <span className='text-light' style={{fontSize:'11px',fontWeight:'900',fontFamily: "'Roboto', sans-serif" }}>Years Of Experience</span>
             </div>
@@ -64,8 +63,6 @@ export default function Home() {
     
     <Experience/>
     <Products/>
-    <Services/> 
-    
     <News_letter/>
     <Testimonials/>
     <FAQ_about/>

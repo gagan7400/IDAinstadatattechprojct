@@ -11,7 +11,7 @@ export default function Footer() {
                                 <div className="pb-4">
                                     <a className=""> <img width={'200px'} src="https://www.instadatatech.com/assets/images/general/logo_white.png" alt="Laravel" /></a>
                                 </div>
-                                <p className=" mb-3">Let's make something great together. We are trusted by over 5000+ clients. Join them by using our services and grow your business.</p>
+                                <p className=" mb-3" style={{fontFamily: "'Roboto', sans-serif"}}>Let's make something great together. We are trusted by over 5000+ clients. Join them by using our services and grow your business.</p>
 
                                 <div className=" w-50 position-relative d-flex border-0">
                                     <div className='position-absolute' >
@@ -23,29 +23,29 @@ export default function Footer() {
                         </div>
                         <div className="col-xl-2 col-sm-6">
                             <div className="footer-item">
-                                <h5 className="">Userful Link</h5>
+                                <h5 className=""style={{fontFamily: "'Roboto', sans-serif"}}>Userful Link</h5>
 
-                                <li className="pb-2 ps-1 list-group-item"><a href="" className=" text-decoration-none text-light">Home</a></li>
-                                <li className="pb-2 ps-1 list-group-item"><a href="" className=" text-decoration-none text-light">About</a></li>
-                                <li className="pb-2 ps-1 list-group-item"><a href="" className=" text-decoration-none text-light">Cookie Policy</a></li>
-                                <li className="pb-2 ps-1 list-group-item"><a href="" className=" text-decoration-none text-light">Privacy Policy</a></li>
-                                <li className="pb-2 ps-1 list-group-item"><a href="" className=" text-decoration-none text-light">Terms of Service</a></li>
+                                <li className="pb-2 ps-1 list-group-item"><a href="" className=" text-decoration-none text-light"style={{fontFamily: "'Roboto', sans-serif"}}>Home</a></li>
+                                <li className="pb-2 ps-1 list-group-item"><a href="" className=" text-decoration-none text-light"style={{fontFamily: "'Roboto', sans-serif"}}>About</a></li>
+                                <li className="pb-2 ps-1 list-group-item"><a href="" className=" text-decoration-none text-light"style={{fontFamily: "'Roboto', sans-serif"}}>Cookie Policy</a></li>
+                                <li className="pb-2 ps-1 list-group-item"><a href="" className=" text-decoration-none text-light"style={{fontFamily: "'Roboto', sans-serif"}}>Privacy Policy</a></li>
+                                <li className="pb-2 ps-1 list-group-item"><a href="" className=" text-decoration-none text-light"style={{fontFamily: "'Roboto', sans-serif"}}>Terms of Service</a></li>
 
                             </div>
                         </div>
                         <div className="col-xl-4 col-sm-6">
                             <div className="footer-item">
-                                <h5 className="footer-item__title">Latest Feed</h5>
+                                <h5 style={{fontFamily: "'Roboto', sans-serif"}}>Latest Feed</h5>
                                 <div className="">
                                     <div className="d-flex pt-4">
 
                                         <img width={"100px"} className='rounded' src="https://www.instadatatech.com/assets/images/frontend/blog/thumb_6422b254567971679995476.jpg" alt="blog-img" />
 
                                         <div className=" ps-3">
-                                            <h6 className="">
+                                            <h6 className=""style={{fontFamily: "'Roboto', sans-serif"}}>
                                                 Photoshop Create Path From Image.
                                             </h6>
-                                            <span className="">Mar 2023, 11:52 PM</span>
+                                            <span className=""style={{fontFamily: "'Roboto', sans-serif"}}>Mar 2023, 11:52 PM</span>
                                         </div>
                                     </div>
                                     <div className="d-flex pt-4">
@@ -53,10 +53,10 @@ export default function Footer() {
                                         <img width={"100px"} className='rounded' src="https://www.instadatatech.com/assets/images/frontend/blog/thumb_6423d54ec0f671680069966.jpg" alt="blog-img" />
 
                                         <div className="ps-3">
-                                            <h6 className="">
+                                            <h6 className=""style={{fontFamily: "'Roboto', sans-serif"}}>
                                                 Color match perfectly to impress your customers
                                             </h6>
-                                            <span className="">Mar 2023, 01:45 AM</span>
+                                            <span className=""style={{fontFamily: "'Roboto', sans-serif"}}>Mar 2023, 01:45 AM</span>
                                         </div>
                                     </div>
                                     <div className="d-flex pt-4">
@@ -64,10 +64,10 @@ export default function Footer() {
                                         <img width={"100px"} className='rounded' src="https://www.instadatatech.com/assets/images/frontend/blog/thumb_6422b22586f7a1679995429.jpg" alt="blog-img" />
 
                                         <div className="ps-3">
-                                            <h6 className="">
+                                            <h6 className=""style={{fontFamily: "'Roboto', sans-serif"}}>
                                                 Photoshop Create Path From Image.
                                             </h6>
-                                            <span className="">Oct 2020, 05:57 PM</span>
+                                            <span className=""style={{fontFamily: "'Roboto', sans-serif"}}>Oct 2020, 05:57 PM</span>
                                         </div>
                                     </div>
                                 </div>
@@ -75,22 +75,22 @@ export default function Footer() {
                         </div>
                         <div className="col-xl-3 col-sm-6">
                             <div className="footer-item">
-                                <h5 className="">Address</h5>
+                                <h5 className=""style={{fontFamily: "'Roboto', sans-serif"}}>Address</h5>
 
                                 <ul className="p-0 m-0 pt-4">
                                     <li className="list-group-item d-flex gap-3">
                                         <div className="">
                                             <i className="fas fa-map-marker-alt"></i>
                                         </div>
-                                        <div className="">
-                                            <p>P13-14 , Metro Tower , Vijay Nagar , Indore</p>
+                                        <div className=""style={{fontFamily: "'Roboto', sans-serif"}}>
+                                            <p style={{fontFamily: "'Roboto', sans-serif"}}>P13-14 , Metro Tower , Vijay Nagar , Indore</p>
                                         </div>
                                     </li>
                                     <li className="list-group-item d-flex gap-3">
                                         <div className="">
                                             <i className="fas fa-envelope"></i>
                                         </div>
-                                        <div className="">
+                                        <div className=""style={{fontFamily: "'Roboto', sans-serif"}}>
                                             <p>instadatatech@gmail.com</p>
                                         </div>
                                     </li>
@@ -98,7 +98,7 @@ export default function Footer() {
                                         <div className="">
                                             <i className="fas fa-phone"></i>
                                         </div>
-                                        <div className="">
+                                        <div className=""style={{fontFamily: "'Roboto', sans-serif"}}>
                                             <p>+91 8269347043</p>
                                         </div>
                                     </li>
@@ -122,14 +122,14 @@ export default function Footer() {
             <div class="container">
                 <div class="d-flex justify-content-between">
                     <div class="col-lg-6 col-md-12">
-                        <div class="bottom-footer-text"> <p>Copyright 2023. All rights reserved.</p></div>
+                        <div class="bottom-footer-text"> <p style={{fontFamily: "'Roboto', sans-serif"}}>Copyright 2023. All rights reserved.</p></div>
                     </div>
                     <div class="col-lg-6 ">
                         <div class="d-flex justify-content-end align-content-center gap-3">
 
-                            <span>Terms of Service</span>
-                            <span>Privacy Policy</span>
-                            <span>Cookie Policy</span>
+                            <span style={{fontFamily: "'Roboto', sans-serif"}}>Terms of Service</span>
+                            <span style={{fontFamily: "'Roboto', sans-serif"}}>Privacy Policy</span>
+                            <span style={{fontFamily: "'Roboto', sans-serif"}}>Cookie Policy</span>
 
                         </div>
                     </div>

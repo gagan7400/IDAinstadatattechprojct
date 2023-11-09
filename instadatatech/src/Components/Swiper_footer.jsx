@@ -11,7 +11,7 @@ export default function Swiper_footer() {
     return (
         <div className='w-100' style={{paddingTop:"4rem",paddingBottom:"4rem"}}>
                 <Swiper
-                      slidesPerView={5}
+                      slidesPerView={6}
                       spaceBetween={20}
                       autoplay={{
                           delay: 2000,
