@@ -2,97 +2,82 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Blog.css';
 
-
-
 function Blog() {
     return (
-        <div className="main p-lg-5 gap-5 ">
-            <div className="first-item shadow rounded-4" id='content' style={{ width: '361px' }}>
-                <div className="thumbnail">
-                    <img width={'400px'} src="https://www.instadatatech.com/assets/images/frontend/blog/thumb_6422b254567971679995476.jpg" alt="not-found" />
+        <>
+            <div className="heading">
+                <h5>BLOG</h5>
+                <h1>Latest News</h1>
+                <p>Data transfer capacity has generally been inconsistent dispersed around the world, with expanding focus in the advanced age just 10 nations have facilitated .</p>
+            </div>
+            <div className="main gap-5 ">
+                <div className="first-item shadow rounded-4" id='content' style={{ width: '361px' }}>
+                    <div className="thumbnail">
+                        <img width={'400px'} src="https://www.instadatatech.com/assets/images/frontend/blog/thumb_6422b254567971679995476.jpg" alt="not-found" />
+                    </div>
+                    <div className="item-content">
+                        <div id="date-blogpage"> <i class="fas fa-calendar-alt text-info"></i><p>Mar 2023, 11:52 PM</p></div>
+                        <h4>Photoshop Create Path From Image.</h4>
+                        <div className="readmore">
+                            <a href="#">
+                                <Link to="/blogpage1">
+                                    <span>
+                                        <h6>read more</h6>
+                                    </span>
+                                </Link>
+                                <svg width="24" height="24" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill="#000000" d="m224.49 136.49l-72 72a12 12 0 0 1-17-17L187 140H40a12 12 0 0 1 0-24h147l-51.49-51.52a12 12 0 0 1 17-17l72 72a12 12 0 0 1-.02 17.01Z" />
+                                </svg>
+                            </a>
+
+                        </div>
+                    </div>
                 </div>
-                <div className="item-content">
-                    <ul className="text-item">
-                        <li>
-                            <span>
-                                <i class="fas fa-calendar-alt"></i>
-                            </span>
-                            <p>Mar 2023, 11:52 PM</p>
-                        </li>
-                    </ul>
-                    <h4>Photoshop Create Path From Image.</h4>
-                    <div className="readmore">
-
-                        <a href="#">
-                            <Link to="/blogpage1">
-                                <span>
-                                    <h6>read more</h6>
-                                </span>
-                            </Link>
-
-                            <svg width="24" height="24" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
-                                <path fill="#000000" d="m224.49 136.49l-72 72a12 12 0 0 1-17-17L187 140H40a12 12 0 0 1 0-24h147l-51.49-51.52a12 12 0 0 1 17-17l72 72a12 12 0 0 1-.02 17.01Z" />
-                            </svg>
-                        </a>
-
+                <div className="second-item ms-1 shadow rounded-4" id='content' style={{ width: '361px' }}>
+                    <div className="thumbnail">
+                        <img width={'400px'} src="https://www.instadatatech.com/assets/images/frontend/blog/thumb_6423d54ec0f671680069966.jpg" alt="not-found" />
+                    </div>
+                    <div className="item-content">
+                    <div id="date-blogpage"> <i class="fas fa-calendar-alt text-info"></i><p>Mar 2023, 11:52 PM</p></div>
+                        <h4>Color Match Perfectaly To <br />Impress Your Constumers.</h4>
+                        <div className="readmore">
+                            <a href="#">
+                                <Link to="/blogpage1">
+                                    <span>
+                                        <h6>read more</h6>
+                                    </span>
+                                </Link>
+                                <svg width="24" height="24" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill="#000000" d="m224.49 136.49l-72 72a12 12 0 0 1-17-17L187 140H40a12 12 0 0 1 0-24h147l-51.49-51.52a12 12 0 0 1 17-17l72 72a12 12 0 0 1-.02 17.01Z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div className="third-item shadow rounded-4" id='content' style={{ width: '361px' }}>
+                    <div className="thumbnail">
+                        <img width={'400px'} src="https://www.instadatatech.com/assets/images/frontend/blog/thumb_6422b22586f7a1679995429.jpg" alt="not-found" />
+                    </div>
+                    <div className="item-content">
+                    <div id="date-blogpage"> <i class="fas fa-calendar-alt text-info"></i><p>Mar 2023, 11:52 PM</p></div>
+                        <h4>Photoshop Create Path From Image.</h4>
+                        <div className="readmore">
+                            <a href="#">
+                                <Link to="/blogpage1">
+                                    <span>
+                                        <h6>read more</h6>
+                                    </span>
+                                </Link>
+                                <svg width="24" height="24" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill="#000000" d="m224.49 136.49l-72 72a12 12 0 0 1-17-17L187 140H40a12 12 0 0 1 0-24h147l-51.49-51.52a12 12 0 0 1 17-17l72 72a12 12 0 0 1-.02 17.01Z" />
+                                </svg>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div className="second-item ms-1 shadow rounded-4" id='content' style={{ width: '361px' }}>
-                <div className="thumbnail">
-                    <img width={'400px'} src="https://www.instadatatech.com/assets/images/frontend/blog/thumb_6423d54ec0f671680069966.jpg" alt="not-found" />
-                </div>
-                <div className="item-content">
-                    <ul className="text-item">
-                        <li>
-                            <span>
-                                <i class="fas fa-calendar-alt"></i>
-                            </span>
-                            <p>Mar 2023, 01:45 AM</p>
-                        </li>
-                    </ul>
-                    <h4>Color Match Perfectaly To <br />Impress Your Constumers.</h4>
-                    <div className="readmore">
-                        <a href="#">
-                            <span>
-                                <h6>read more</h6>
-                            </span>
-                            <svg width="24" height="24" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
-                                <path fill="#000000" d="m224.49 136.49l-72 72a12 12 0 0 1-17-17L187 140H40a12 12 0 0 1 0-24h147l-51.49-51.52a12 12 0 0 1 17-17l72 72a12 12 0 0 1-.02 17.01Z" />
-                            </svg>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div className="third-item shadow rounded-4" id='content' style={{ width: '361px' }}>
-                <div className="thumbnail">
-                    <img width={'400px'} src="https://www.instadatatech.com/assets/images/frontend/blog/thumb_6422b22586f7a1679995429.jpg" alt="not-found" />
-                </div>
-                <div className="item-content">
-                    <ul className="text-item">
-                        <li>
-                            <span>
-                                <i class="fas fa-calendar-alt"></i>
-                            </span>
-                            <p>Oct 2020, 05:57 PM</p>
-                        </li>
-                    </ul>
-                    <h4>Photoshop Create Path From Image.</h4>
-                    <div className="readmore">
-                        <a href="#">
-                            <span>
-                                <h6>read more</h6>
-                            </span>
-                            <svg width="24" height="24" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
-                                <path fill="#000000" d="m224.49 136.49l-72 72a12 12 0 0 1-17-17L187 140H40a12 12 0 0 1 0-24h147l-51.49-51.52a12 12 0 0 1 17-17l72 72a12 12 0 0 1-.02 17.01Z" />
-                            </svg>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
 
-
+        </>
     )
 }
 
