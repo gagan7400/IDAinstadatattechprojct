@@ -7,8 +7,7 @@ import Contact from './Components/Contact'
 import './App.css';
 import Blog from './Components/blog/Blog';
 import Services from './Components/Services';
-import About from './Components/About';
-import Products from './Components/Products';
+
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Prop_item from './Components/Prop_item'
 import { MutatingDots } from 'react-loader-spinner'
