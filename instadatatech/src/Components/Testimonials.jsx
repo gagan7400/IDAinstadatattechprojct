@@ -14,8 +14,8 @@ import { Autoplay} from 'swiper/modules';
 export default function Testimonials() {
     return (
         <div style={{paddingTop:"8rem"}}>
-        <div className='d-flex p-lg-5 flex-wrap position-relative'>
-            <div className='col-6 ps-5 position-relative'>
+        <div className='Testimonials_section   flex-wrap position-relative'>
+            <div className='Test_child1  position-relative'>
                 <span className='outline mb-2 text-light p-2 rounded pe-4 ps-4' style={{ background: ' linear-gradient(90deg, rgba(81,85,251,1) 24%, rgba(25,209,253,1) 99%, rgba(220,187,247,1) 100%)' }}>Testimonials</span>
                 <p className='fs-1 pt-4' style={{ fontWeight: '700', fontSize: '45px',fontFamily: "'Roboto', sans-serif" }}>What Clients Say About Us.</p>
                 <span className='fs-5' style={{fontFamily: "'Roboto', sans-serif"}}>Data transfer capacity has generally been inconsistent dispersed around the world, with expanding focus in the advanced age just 10 nations have facilitated .
@@ -24,7 +24,7 @@ export default function Testimonials() {
                     <img width={"93px"}  style={{ top:"-14%",right:'2%' }} src="Testimonials_img.png" alt="" />
                 </div>
             </div>
-            <div className='col-6 '>
+            <div className='Test_child2'>
                 <Swiper
                     spaceBetween={30}
                     centeredSlides={true}
@@ -40,7 +40,7 @@ export default function Testimonials() {
                 >
                     <SwiperSlide className='d-flex justify-content-center algin-content-center '>
                         <div className='shadow p-2  'style={{borderRadius: "3% 3% 3% 3%",backgroundColor:"#dcf6fd"}}>
-                            <div className="testimonial-item position-relative d-flex gap-4  p-lg-4" style={{ width: "524px", borderRadius: "2% 2% 2% 2%" }}>
+                            <div className="testimonial-item position-relative d-flex gap-4  p-lg-4" style={{ borderRadius: "2% 2% 2% 2%" }}>
 
 
 
@@ -79,7 +79,7 @@ export default function Testimonials() {
                     </SwiperSlide>
                     <SwiperSlide className='d-flex justify-content-center algin-content-center'>
                         <div className='shadow p-2 m-3'style={{borderRadius: "3% 3% 3% 3%",backgroundColor:"#dcf6fd"}}>
-                            <div className="testimonial-item position-relative d-flex gap-4  p-lg-4   " style={{ width: "524px", borderRadius: "2% 2% 2% 2%" }}>
+                            <div className="testimonial-item position-relative d-flex gap-4  p-lg-4   " style={{ borderRadius: "2% 2% 2% 2%" }}>
 
 
 
@@ -118,7 +118,7 @@ export default function Testimonials() {
                     </SwiperSlide>
                     <SwiperSlide className='d-flex justify-content-center algin-content-center '>
                         <div className='shadow p-2  'style={{borderRadius: "3% 3% 3% 3%",backgroundColor:"#dcf6fd"}}>
-                            <div className="testimonial-item position-relative d-flex gap-4  p-lg-4" style={{ width: "524px", borderRadius: "2% 2% 2% 2%" }}>
+                            <div className="testimonial-item position-relative d-flex gap-4  p-lg-4" style={{ borderRadius: "2% 2% 2% 2%" }}>
 
 
 
@@ -157,7 +157,7 @@ export default function Testimonials() {
                     </SwiperSlide>
                     <SwiperSlide className='d-flex justify-content-center algin-content-center'>
                         <div className='shadow p-2 m-3'style={{borderRadius: "3% 3% 3% 3%",backgroundColor:"#dcf6fd"}}>
-                            <div className="testimonial-item position-relative d-flex gap-4  p-lg-4   " style={{ width: "524px", borderRadius: "2% 2% 2% 2%" }}>
+                            <div className="testimonial-item position-relative d-flex gap-4  p-lg-4   " style={{ borderRadius: "2% 2% 2% 2%" }}>
 
 
 

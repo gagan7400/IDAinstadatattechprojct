@@ -14,8 +14,8 @@ const Experience= () => {
             </div>
           </div>
         </div>
-        <div className="row gy-4 d-flex  justify-content-center" style={{paddingLeft:'8rem'}}>
-          <div className="col-lg-3 col-md-4 col-sm-6">
+        <div className=" d-flex justify-content-between flex-wrap mt-5 experience__"  >
+          <div className="">
             <div className="experience">
               <div className="experience__icon">
                 <h3>
@@ -26,11 +26,11 @@ const Experience= () => {
                 </h3>
               </div>
               <div className="experience__content">
-                <h3 className="title" style={{fontFamily: "'Roboto', sans-serif"}}>Clients</h3>
+                <h3 className="title" style={{fontFamily: "'Roboto', sans-serif",marginLeft:'-8px'}}>Clients</h3>
               </div>
             </div>
           </div>
-          <div className="col-lg-3 col-md-4 col-sm-6">
+          <div className="">
             <div className="experience">
               <div className="experience__icon">
                 <h3>
@@ -41,11 +41,11 @@ const Experience= () => {
                 </h3>
               </div>
               <div className="experience__content">
-                <h3 className="title" style={{fontFamily: "'Roboto', sans-serif"}}>Websites</h3>
+                <h3 className="title" style={{fontFamily: "'Roboto', sans-serif",marginLeft:'-13px'}}>Websites</h3>
               </div>
             </div>
           </div>
-          <div className="col-lg-3 col-md-4 col-sm-6">
+          <div className="">
             <div className="experience">
               <div className="">
                 <h3>
@@ -56,11 +56,11 @@ const Experience= () => {
                 </h3>
               </div>
               <div className="experience__content">
-                <h3 className="title" style={{fontFamily: "'Roboto', sans-serif"}}>Application</h3>
+                <h3 className="title" style={{fontFamily: "'Roboto', sans-serif",marginLeft:'-23px'}}>Application</h3>
               </div>
             </div>
           </div>
-          <div className="col-lg-3 col-md-4 col-sm-6">
+          <div className="">
             <div className="experience">
               <div className="experience__icon">
                 <h3>

@@ -5,7 +5,7 @@ export default function Navbar() {
     <div>
   <nav className="navbar navbar-expand-lg  ps-lg-5 pe-lg-5" style={{ background: 'linear-gradient(120deg, rgba(248, 249, 249, 1) 0%, rgba(172, 235, 251, 1) 19%, rgba(172, 235, 251, 1) 39%, rgba(255, 255, 255, 1) 69%,rgba(172, 235, 251, 1) 89%,#c785fd 100%)'}}>   
     <div className="container-fluid ">
-    <NavLink className="navbar-brand ps-lg-4" to='/'><img width={'150px'} className='ps-3' src="https://www.instadatatech.com/assets/images/general/logo.png" alt="" /></NavLink>
+    <NavLink className="navbar-brand ps-lg-4" to='/'><img width={'150px'} className='ps-3' src="logo1111.png" alt="" /></NavLink>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>

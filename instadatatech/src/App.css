@@ -23,6 +23,413 @@ font-family: 'Shantell Sans', cursive; */
   }
 }
 
+@media screen and (min-width: 990px)  {
+  .home_section{
+    padding:1rem;
+    display: flex; 
+  }
+  .Home_second{
+
+    margin-top: .1rem;
+  }
+  .Home_bg{
+    height:140vh;
+  }
+  .Home_se{
+    height: 300px;
+  }
+
+
+  .Font_title{
+    font-size: 45px;
+  }
+  /*#####3 about #########*/
+ 
+  .about_section{
+    display: flex;
+    gap: 4rem;
+    
+  }
+  .About_img{
+    width: 450px;
+  }
+  .about_img_pairent{
+    padding-left:8rem; 
+
+  }
+.About{
+  margin-left: 5rem;
+}
+
+/*#####3 chooseMe #########*/
+.containerChooseMe{
+  display: flex;
+  gap: 4rem;
+}
+.choose_img{
+  margin: auto;
+}
+
+ /*#####3 FAQ section #########*/
+  .FAQ_section{
+    display: flex;
+    margin: auto;
+ 
+    grid-gap: 50px;
+     padding: 4rem; 
+    
+    justify-content: center;  
+  }
+  .faq_text{
+    width: 400px;
+  }
+  .faq_img{
+    height: 26rem;
+  }
+   /*#####3 Testimonials #########*/
+   .Testimonials_section{
+    display: flex;
+    padding-left: 3rem;
+   }
+   .Test_child2{
+    width: 50%;
+   }
+   .Test_child1{
+    width: 50%;
+    
+   }
+    .testimonial-item{
+    
+      width: 524px;
+   }
+   .main_blog{
+    display: flex;
+    
+   }
+   .leststart_se{
+    width: 75%;
+    
+   }
+   .card{
+    width: 400px;
+   }
+   .contact__{
+    display: flex;
+    justify-content: center;
+   }
+   .contact1__{
+    margin-top: 6%;
+   }
+   .contact1__img{
+    width: 40vw;
+    border-radius: 5%;
+   }
+   /* ########## contect us css ################ */
+.contact-info {
+  background-color: #fff;
+  transition: background-color 1s ease, box-shadow 1s ease,border 1.1s, transform 1s ease; 
+  border-radius:12px;
+  transform: scale(1);
+  border: 3px solid transparent; 
+}
+
+.contact-info:hover {
+  background-color:#fff;
+  box-shadow:0 8px 8px rgba(0, 0, 0, 0.2);
+  transform: scale(1);
+  transition: background-color 1s ease, box-shadow 1s ease,border 1.3s, transform 1s ease; 
+  border: 3px solid rgb(79, 194, 244);
+  border-radius:12px;
+}
+.headerNav1{
+  gap: 34px;
+}
+.container_{
+  padding: 8px;
+  padding-right: 134px;
+  padding-left: 64px;
+}
+.experience__{
+  margin-left: 10%;
+}
+}
+@media screen and (max-width: 470px)  {
+  .Nav_1{
+    display: none;
+  }
+  .containerChooseMe{
+    padding-top: '123px';
+    padding-bottom: '123px';
+  }
+}
+@media screen and (max-width: 990px)  {
+  .home_section{
+    padding:6rem; 
+  }
+  .Home_second{
+
+    margin-top: 8rem;
+  }
+  .Home_se{
+    height: 400px;
+  }
+  .Font_title{
+    font-size: 45px;
+  }
+   /*#####3 about #########*/
+   .about_section{
+    margin: auto;
+    
+  }
+  .About_img{
+    width: 650px;
+  }
+  .about_img_pairent{
+    margin: auto;
+    width: 75%;
+  }
+.About{
+  margin: auto;
+  margin-bottom: 3rem;
+}
+.about_text{
+  margin: auto;
+  width: 75%;
+}
+/*#####3 chooseMe #########*/
+/* .containerChooseMe{ */
+  /* margin: auto; */
+/* } */
+.text_chooseMe{
+  margin: auto;
+  width: 90%;
+}
+.choose_img{
+  margin: auto;
+  width: 670px;
+
+}
+.choose_img_pairent{
+  margin: auto;
+  width: 75%;
+}
+
+ /*#####3 FAQ section #########*/
+  .FAQ_section{
+    margin: auto;
+     padding: 4rem; 
+    
+    justify-content: center;  
+  }
+  .faq_text{
+    margin: auto;
+    width: 85%;
+  }
+  .faq_img{
+    height: 26rem;
+    width: 85%;
+    margin-bottom: 4rem;
+  }
+    /*#####3 Testimonials #########*/
+   .Testimonials_section{
+    
+    padding-left: 1rem;
+   }
+   .Test_child2{
+    /* width: 90%; */
+    margin-top: 10%;
+   }
+   .Test_child1{
+    width: 90%;
+    margin: auto;
+   }
+   .testimonial-item{
+    
+      width: 734px;
+   }
+   .main_blog{
+    display: flex;
+    flex-wrap: wrap;
+   }
+   .leststart_se{
+    
+    display: flex;
+    justify-content: center;
+    
+   }
+   .leststart_se2{
+    
+    width: 75%;
+    
+   }
+   .card{
+    width: 400px;
+   }
+
+   /*#################    contact  ################# */
+   .contact__{
+     padding: '34px';
+   }
+   .contact1__img{
+    width: 100%;
+    border-radius: 5%;
+   }
+   .contact1__{
+    margin: 23px;
+   }
+   .contact2__{
+    margin: 5rem;
+   }
+/* ########## contect us css ################ */
+.contact-info {
+  background-color: #fff;
+  transition: background-color 1s ease, box-shadow 1s ease,border 1.1s, transform 1s ease; 
+  border-radius:12px;
+  transform: scale(1);
+  padding: 12%;
+  border: 3px solid transparent; 
+}
+
+.contact-info:hover {
+  background-color:#fff;
+  box-shadow:0 8px 8px rgba(0, 0, 0, 0.2);
+  transform: scale(1);
+  transition: background-color 1s ease, box-shadow 1s ease,border 1.3s, transform 1s ease; 
+  border: 3px solid rgb(79, 194, 244);
+  border-radius:12px;
+  padding: 12%;
+}
+.headerNav1{
+  gap: 24px;
+}
+.container_{
+  padding: 8px;
+  padding-right: 34px;
+
+}
+}
+@media screen and (max-width: 490px)  {
+  .container_{
+    display: none;
+  }
+  .home_section{
+    padding:1rem; 
+  }
+  .Home_bg{
+    height:130vh;
+  }
+  .Home_second{
+
+    margin-top: 8rem;
+  }
+  .Home_se{
+    height: 240px;
+  }
+  .Font_title{
+    font-size: 36px;
+  }
+     /*#####3 about #########*/
+     .about_section{
+      margin: auto;
+      
+    }
+    .About_img{
+      width: 310px;
+    }
+    /* .about_img_pairent{
+     
+    } */
+  .About{
+    margin: auto;
+    margin-bottom: 3rem;
+  }
+  .about_text{
+    margin: auto;
+    
+  }
+  /*#####3 chooseMe #########*/
+/* .containerChooseMe{
+  /* margin: auto; */
+  
+/* }  */
+.text_chooseMe{
+  margin: auto;
+  width: 90%;
+}
+.choose_img{
+  margin: auto;
+  width: 310px;
+
+}
+.choose_img_pairent{
+  margin: auto;
+  /* width: 75%; */
+}
+  .FAQ_section{
+    margin: auto;
+     padding: 1rem; 
+    
+    justify-content: center;  
+  }
+  .faq_text{
+    margin: auto;
+    width: 95%;
+  }
+  .faq_img{
+    height: 16rem;
+    width: 95%;
+    margin-bottom: 2rem;
+  }
+    /*#####3 Testimonials #########*/
+   .Testimonials_section{
+    
+    padding-left: .3rem;
+   }
+   .Test_child2{
+    width: 98%;
+    margin-top: 10%;
+   }
+   .Test_child1{
+    width: 95%;
+    margin: auto;
+  }
+  .testimonial-item{
+     width:424px;
+      width: "524px",
+   }
+   .main_blog{
+    display: flex;
+    flex-wrap: wrap;
+    height: 1700px;
+   }
+   .card{
+    width:'300px';
+   }
+   .contact2__{
+    margin: 2rem;
+   }
+   /* ########## contect us css ################ */
+.contact-info {
+  background-color: #fff;
+  transition: background-color 1s ease, box-shadow 1s ease,border 1.1s, transform 1s ease; 
+  border-radius:12px;
+  transform: scale(1);
+  padding: 8%;
+  border: 3px solid transparent; 
+}
+
+.contact-info:hover {
+  background-color:#fff;
+  box-shadow:0 8px 8px rgba(0, 0, 0, 0.2);
+  transform: scale(1);
+  transition: background-color 1s ease, box-shadow 1s ease,border 1.3s, transform 1s ease; 
+  border: 3px solid rgb(79, 194, 244);
+  border-radius:12px;
+  padding: 8%;
+}
+
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -121,14 +528,14 @@ font-family: 'Shantell Sans', cursive; */
 }
 /*   css on cards  */
 .card {
-  border-radius: 8px;
+  /* border-radius: 8px; */
   /* margin-right: 30px; */
   background: #fff;
   box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05);
   transition: all 0.4s ease-in-out;
   padding: 30px;
   cursor: pointer;
-  width: 28.33%;
+ 
   box-sizing: border-box;
 }
 
@@ -136,6 +543,23 @@ font-family: 'Shantell Sans', cursive; */
   transform: translateY(-10px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
   border: 2px solid rgb(30, 149, 234);
+}
+.card2 {
+  border-radius: 8px;
+  width: 360px;
+  background: #fff;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05);
+  transition: all 0.4s ease-in-out;
+  padding: 30px;
+  cursor: pointer;
+ 
+  box-sizing: border-box;
+}
+
+.card2:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
+  border: 2px solid rgb(30, 234, 217);
 }
 
 .card h3 {
@@ -417,23 +841,7 @@ color: orange;
 
 
 
-/* ########## contect us css ################ */
-.contact-info {
-  background-color: #fff;
-  transition: background-color 1s ease, box-shadow 1s ease,border 1.1s, transform 1s ease; 
-  border-radius:12px;
-  transform: scale(1);
-  border: 3px solid transparent; 
-}
 
-.contact-info:hover {
-  background-color:#fff;
-  box-shadow:0 8px 8px rgba(0, 0, 0, 0.2);
-  transform: scale(1);
-  transition: background-color 1s ease, box-shadow 1s ease,border 1.3s, transform 1s ease; 
-  border: 3px solid rgb(79, 194, 244);
-  border-radius:12px;
-}
 
 
 

@@ -4,7 +4,7 @@ export default function FAQ_about() {
   return (
     <div>
          <div className="secondcontainer">
-          <div className="text-center">
+          <div className="text-center w-75 m-auto">
             <button className="btn-1" style={{ fontFamily: "'Roboto', sans-serif" ,borderStyle:'none'}}>FAQ</button>
 
             <p className='fs-1' style={{ fontWeight:'700', fontFamily: "'Roboto', sans-serif" }}>Frequently Asked Question.</p>
@@ -16,9 +16,9 @@ export default function FAQ_about() {
             </span>
           </div>
 
-          <div className="d-flex flex-wrap p-lg-5 gap-4 justify-content-center" >
-            <img className="col-5 rounded h-100" src="kalu.jpg" />
-            <div class="accordion col-6 " id="accordionExample">
+          <div className="FAQ_section" >
+            <img className="rounded faq_img" src="kalu.jpg" />
+            <div class="accordion  faq_text" id="accordionExample">
               <div class="accordion-item border-light shadow">
                 <h2 class="accordion-header" id="headingOne">
                   <button class="accordion-button"style={{ fontFamily: "'Roboto', sans-serif" }} type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">

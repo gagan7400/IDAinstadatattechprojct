@@ -4,7 +4,7 @@ import './Blog.css'
 function Blog() {
     return (
         <>
-            <div className="main p-lg-5 gap-5 ">
+            <div className="main gap-5 main_blog">
                 <div className="first-item shadow rounded-4" id='content' style={{ width: '361px' }}>
                     <div className="thumbnail">
                         <img width={'400px'} src="https://www.instadatatech.com/assets/images/frontend/blog/thumb_6422b254567971679995476.jpg" alt="not-found" />

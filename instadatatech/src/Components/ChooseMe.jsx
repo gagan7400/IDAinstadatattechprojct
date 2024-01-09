@@ -4,12 +4,13 @@ import { faCheckCircle,faCirclePause } from "@fortawesome/free-solid-svg-icons";
 
 const ChooseMe = () => {
   return (
-    <div>
-      <div className="containerChooseMe d-flex p-lg-5">
-        <div className="col-7">
-          <div className="firstComponent ps-5 pt-5 pe-5">
-            <button className="btn-1 ">Why Choose Me</button>
-            <br />
+    <div >
+      <div className="containerChooseMe p-lg-5" style={{background: "rgb(249,249,249)",background: "linear-gradient(90deg, rgba(249,249,249,1) 24%, rgba(214,246,239,1) 70%, rgba(240,229,248,1) 100%)"}}>
+        <div className="text_chooseMe" style={{paddingTop:'123px'}} >
+          <div className="firstComponent">
+          <a target="_blank" className=" btn btn--base outline mb-2 text-light" style={{ fontFamily: "'Roboto', sans-serif", borderStyle: 'none', background: ' linear-gradient(90deg, rgba(81,85,251,1) 24%, rgba(25,209,253,1) 99%, rgba(220,187,247,1) 100%)' }}>
+            Why Choose Me<i class="bi bi-arrow-right-short"></i>
+          </a>
             <br />
             <h1 className="fs-1" style={{fontFamily: "'Roboto', sans-serif"}}>Our Digital Agency Delivers Extraordinary Business Value.</h1>
            
@@ -23,7 +24,7 @@ const ChooseMe = () => {
           </div>
           
           <div style={{fontFamily: "'Roboto', sans-serif"}}>
-            <div className="Chooseinfoo d-flex gap-2 ps-5">
+            <div className="Chooseinfoo d-flex gap-2 ps-2">
               <div className="CircleICon fs-3 text-info">
                 <FontAwesomeIcon icon={faCheckCircle} />
               </div>
@@ -36,7 +37,7 @@ const ChooseMe = () => {
               </div>
             </div>
             <br />
-            <div className="Chooseinfoo d-flex gap-2 ps-5">
+            <div className="Chooseinfoo d-flex gap-2 ps-2">
               <div className="CircleICon fs-3 text-info">
                 <FontAwesomeIcon icon={faCheckCircle} />
               </div>
@@ -49,7 +50,7 @@ const ChooseMe = () => {
               </div>
             </div>
             <br />
-            <div className="Chooseinfoo d-flex gap-2 ps-5">
+            <div className="Chooseinfoo d-flex gap-2 ps-2">
               <div className="CircleICon fs-3 text-info">
                 <FontAwesomeIcon icon={faCheckCircle} />
               </div>
@@ -64,8 +65,8 @@ const ChooseMe = () => {
             <br />
           </div>
         </div>
-        <div className="col-5" style={{paddingTop:'7rem'}}>
-        <img className="rounded " width={'435em'} src="https://www.instadatatech.com/assets/images/frontend/theme_three_choose_us/64352b731796d1681206131.png" />
+        <div className="choose_img_pairent pb-5 " style={{paddingTop:'123px'}}>
+        <img className="rounded choose_img"  src="https://www.instadatatech.com/assets/images/frontend/theme_three_choose_us/64352b731796d1681206131.png" />
         </div>
      </div>
     </div>

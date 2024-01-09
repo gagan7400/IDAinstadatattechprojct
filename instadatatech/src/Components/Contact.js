@@ -1,8 +1,15 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faHouse, faArrowRight, faPhone, faLocationDot, faMessage } from "@fortawesome/free-solid-svg-icons";
 
 const IDA = () => {
+    useEffect(() => {
+        window.scrollTo({
+          top: 0,
+          left: 0,
+          behavior: "smooth"
+        });
+      }, []);
 
     const [isHovered, setIsHovered] = useState(false);
 
@@ -49,8 +56,8 @@ const IDA = () => {
     return (
         <div className="pt-5">
             
-                <div className="container" style={{height:'150px'}}>
-                    <div className="row gy-4 justify-content-center">
+                <div className="container" >
+                    <div className="row gy-4 d-flex  flex-wrap">
                         <div className="col-lg-4 col-md-6">
                             <div className="contact-info">
                                 <div className=" mb-30">
@@ -110,12 +117,12 @@ const IDA = () => {
             {/* -------------------------------------- */}
             <div >
                 <div>
-                    <div className="d-flex p-lg-5 ">
-                        <div className="col-6 p-lg-5 mt-5">
-                            <img style={{ width: '40vw', borderRadius: '5%' }} src="boi.jpg" />
+                    <div className=" p-lg-5  contact__">
+                        <div className=" contact1__">
+                            <img className="contact1__img" src="boi.jpg" />
                         </div>
 
-                        <div className="row gy-md-4 gy-3 col-6 p-lg-5 row-gap-1 grid gap-0 ">
+                        <div className="row gy-md-4 gy-3 contact2__  p-lg-5 row-gap-1 ">
                             <p className="fs-1" style={{ fontFamily: "'Roboto', sans-serif" }}> Contact us </p>
                             <div>
                                 <label for="exampleFormControlInput1" style={{ fontFamily: "'Roboto', sans-serif" }} class="form-label">Name</label>

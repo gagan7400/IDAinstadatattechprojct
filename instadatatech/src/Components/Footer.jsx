@@ -121,7 +121,7 @@ export default function Footer() {
         <div class=" py-3 text-light " style={{ backgroundColor: "#1f2a36" }}>
             <div class="container">
                 <div class="d-flex justify-content-between">
-                    <div class="col-lg-6 col-md-12">
+                    <div class="col-lg-6">
                         <div class="bottom-footer-text"> <p style={{fontFamily: "'Roboto', sans-serif"}}>Copyright 2023. All rights reserved.</p></div>
                     </div>
                     <div class="col-lg-6 ">

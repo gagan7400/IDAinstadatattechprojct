@@ -1,9 +1,16 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 function Services() {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: "smooth"
+    });
+  }, []);
   return (
     <>
       <div className='d-flex flex-wrap p-lg-5 justify-content-center row-gap-4 gap-4'>
-          <div className="card">
+          <div className="card2">
             <div className="service__icon">
               <i className="fa fa-users" aria-hidden="true"></i>
             </div>
@@ -15,7 +22,7 @@ function Services() {
               </div>
             </div>
           </div>
-          <div className="card">
+          <div className="card2">
             <div className="service__icon">
               <i className="fa fa-cloud-upload" aria-hidden="true"></i>
             </div>
@@ -28,7 +35,7 @@ function Services() {
             </div>
           </div>
 
-          <div className="card">
+          <div className="card2">
             <div className="service__icon">
               <i className="fa fa-mobile" aria-hidden="true"></i>
             </div>
@@ -41,11 +48,7 @@ function Services() {
             </div>
           </div>
 
-
-
-
-
-          <div className="card card-1">
+          <div className="card2 card-1">
             <div className="service__icon">
               <i className="fas fa-atlas"></i>
             </div>
@@ -58,7 +61,7 @@ function Services() {
             </div>
           </div>
 
-          <div className="card card-1">
+          <div className="card2 card-1">
             <div className="service__icon">
               <i className="fas fa-chart-pie"></i>
             </div>
@@ -71,7 +74,7 @@ function Services() {
             </div>
           </div>
 
-          <div className="card card-1">
+          <div className="card2 card-1">
             <div className="service__icon">
               <i className="fas fa-chart-line"></i>
             </div>
